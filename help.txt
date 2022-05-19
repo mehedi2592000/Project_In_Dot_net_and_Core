@@ -1,0 +1,9 @@
+<add name="conn" connectionString="server=DESKTOP-45D2DB8;database=Codefirst;integrated security=true" providerName="System.Data.SqlClient"/>
+
+//enable-migrations
+//add-migration "ggo"
+//update-database
+
+
+Unable to update database to match the current model because there are pending changes and automatic migration is disabled. Either write the pending model changes to a code-based migration or enable automatic migration. Set DbMigrationsConfiguration.AutomaticMigrationsEnabled to true to enable automatic migration.
+You can use the Add-Migration command to write the pending model changes to a code-based migration.
