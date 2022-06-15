@@ -38,6 +38,7 @@ namespace Mvc_json_and_Session__Project.Controllers
         {
             var data=ProductRepo.Get(id);
 
+
             List<ProductModel> products;
 
             if(Session["cart"]==null)

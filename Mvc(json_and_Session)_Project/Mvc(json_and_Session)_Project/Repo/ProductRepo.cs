@@ -24,6 +24,7 @@ namespace Mvc_json_and_Session__Project.Repo
                     select pr).FirstOrDefault();
 
 
+
             return new ProductModel()
             {
                 id=p.id,
@@ -37,6 +38,7 @@ namespace Mvc_json_and_Session__Project.Repo
          public static List<ProductModel>GetAll()
         {
             var products=new List<ProductModel>();
+
 
             foreach(var pr in db.Products)
             {
