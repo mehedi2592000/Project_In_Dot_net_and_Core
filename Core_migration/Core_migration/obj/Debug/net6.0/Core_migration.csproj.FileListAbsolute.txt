@@ -266,3 +266,7 @@ D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\runtimes\win\lib\net6.
 D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Project\Core_migration\Core_migration\obj\Debug\net6.0\Core_migration.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\Myapp.dll
+D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\MyappData.dll
+D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\MyappData.pdb
+D:\Project\Core_migration\Core_migration\bin\Debug\net6.0\Myapp.pdb

@@ -1,0 +1,12 @@
+D:\Project\Core_migration\Myapp\bin\Debug\net6.0\Myapp.deps.json
+D:\Project\Core_migration\Myapp\bin\Debug\net6.0\Myapp.dll
+D:\Project\Core_migration\Myapp\bin\Debug\net6.0\Myapp.pdb
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.csproj.AssemblyReference.cache
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.AssemblyInfoInputs.cache
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.AssemblyInfo.cs
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.csproj.CoreCompileInputs.cache
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.dll
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\refint\Myapp.dll
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\Myapp.pdb
+D:\Project\Core_migration\Myapp\obj\Debug\net6.0\ref\Myapp.dll

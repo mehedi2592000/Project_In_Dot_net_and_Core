@@ -1,6 +1,7 @@
 ﻿using Core_migration.Data;
-using Core_migration.Models;
+
 using Microsoft.AspNetCore.Mvc;
+using Myapp.Models;
 using System.Collections.Generic;
 
 namespace Core_migration.Controllers

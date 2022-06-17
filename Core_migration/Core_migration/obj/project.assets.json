@@ -3137,6 +3137,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Myapp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Myapp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Myapp.dll": {}
+        }
+      },
+      "MyappData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6",
+          "Myapp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyappData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyappData.dll": {}
+        }
       }
     }
   },
@@ -9651,6 +9677,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Myapp/1.0.0": {
+      "type": "project",
+      "path": "../Myapp/Myapp.csproj",
+      "msbuildProject": "../Myapp/Myapp.csproj"
+    },
+    "MyappData/1.0.0": {
+      "type": "project",
+      "path": "../MyappData/MyappData.csproj",
+      "msbuildProject": "../MyappData/MyappData.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9659,6 +9695,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.6",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.6",
+      "MyappData >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.0"
     ]
   },
@@ -9688,7 +9725,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Project\\Core_migration\\MyappData\\MyappData.csproj": {
+              "projectPath": "D:\\Project\\Core_migration\\MyappData\\MyappData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

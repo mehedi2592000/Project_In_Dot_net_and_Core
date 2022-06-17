@@ -1,5 +1,6 @@
-﻿using Core_migration.Models;
+﻿
 using Microsoft.AspNetCore.Mvc;
+using Myapp.Models;
 using System.Diagnostics;
 
 namespace Core_migration.Controllers
@@ -10,6 +11,7 @@ namespace Core_migration.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            ViewData
             _logger = logger;
         }
 
