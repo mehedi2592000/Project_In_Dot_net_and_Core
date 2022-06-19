@@ -3,9 +3,9 @@ using Core_Again_practice.Models;
 
 namespace Core_Again_practice.InterfaceData
 {
-    public interface IRrepository
+    public interface IRrepository<T>
     {
-        List<Product> GetAll();
+        List<T> GetAll();
 
         Product Get();
 

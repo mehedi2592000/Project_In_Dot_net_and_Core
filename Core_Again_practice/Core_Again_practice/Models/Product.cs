@@ -13,5 +13,9 @@ namespace Core_Again_practice.Models
         [Required]
         public int amount { get; set; }
 
+
+        [Required]
+        public string imgname { get; set; }
+
     }
 }

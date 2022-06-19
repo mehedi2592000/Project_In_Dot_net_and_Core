@@ -2,13 +2,18 @@ using Core_Again_practice.Data;
 using Microsoft.EntityFrameworkCore;
 using Core_Again_practice.InterfaceData;
 using Core_Again_practice.Repo;
+using Core_Again_practice.Models;
+using Microsoft.Extensions.FileProviders;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IRrepository, ProductRepo>();
+
+builder.Services.AddScoped<IRrepository<Product>, ProductRepo>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options=>
 {
@@ -25,6 +30,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+           Path.Combine(builder.Environment.ContentRootPath, "wwwroot")),
+    RequestPath = "/wwwroot"
+});
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -35,4 +46,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapRazorPages();
+
 app.Run();
+
+

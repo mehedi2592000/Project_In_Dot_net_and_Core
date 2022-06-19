@@ -14,9 +14,9 @@ namespace Core_Again_practice.Controllers
     {
 
         private ApplicationDbContext _context;
-        private readonly IRrepository _unit;
+        private readonly IRrepository<Product> _unit;
 
-        public ProductController(ApplicationDbContext context, IRrepository pro)
+        public ProductController(ApplicationDbContext context, IRrepository<Product> pro)
         {
             _context = context;
             _unit = pro;
@@ -25,8 +25,9 @@ namespace Core_Again_practice.Controllers
 
         public IActionResult Index()
         {
-            List<Product> Catagories = _unit.GetAll();
+            // List<Product> Catagories = _unit.GetAll();
 
+            List<Product> Catagories=_context.Products.ToList();
             return View(Catagories);
         }
 

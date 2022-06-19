@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Core_Again_practice.Repo
 {
-    public class ProductRepo : IRrepository
+    public class ProductRepo : IRrepository<Product>
     {
         private readonly ApplicationDbContext _context;
            
