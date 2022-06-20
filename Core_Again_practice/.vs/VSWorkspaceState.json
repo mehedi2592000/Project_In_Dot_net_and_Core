@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Core_Again_practice",
+    "\\Core_Again_practice\\Controllers",
+    "\\Core_Again_practice\\Models",
+    "\\Core_Again_practice\\Models\\ModelData",
+    "\\Core_Again_practice\\Views",
+    "\\Core_Again_practice\\Views\\Customer",
+    "\\Core_Again_practice\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Core_Again_practice\\Views\\Customer\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
