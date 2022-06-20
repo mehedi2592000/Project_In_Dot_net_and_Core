@@ -1,7 +1,7 @@
 ﻿using Core_Again_practice.Data;
 using Core_Again_practice.Models;
 using Core_Again_practice.Models.ModelData;
-using Microsoft.AspNetCore.Hosting;
+
 using Microsoft.AspNetCore.Mvc;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 

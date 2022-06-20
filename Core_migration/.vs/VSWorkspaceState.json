@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Core_migration",
+    "\\Core_migration\\Controllers",
+    "\\Core_migration\\Properties",
+    "\\Core_migration\\Views",
+    "\\Myapp",
+    "\\MyappData"
+  ],
+  "SelectedNode": "\\Core_migration\\Controllers\\CatagoryController.cs",
+  "PreviewInSolutionExplorer": false
+}
