@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadim\\source\\repos\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj": {}
+    "E:\\Project\\Project_In_Dot_net_and_Core\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sadim\\source\\repos\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj": {
+    "E:\\Project\\Project_In_Dot_net_and_Core\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadim\\source\\repos\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj",
+        "projectUniqueName": "E:\\Project\\Project_In_Dot_net_and_Core\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj",
         "projectName": "Core_file_migration",
-        "projectPath": "C:\\Users\\sadim\\source\\repos\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj",
+        "projectPath": "E:\\Project\\Project_In_Dot_net_and_Core\\Core_file_migration\\Core_file_migration\\Core_file_migration.csproj",
         "packagesPath": "C:\\Users\\sadim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadim\\source\\repos\\Core_file_migration\\Core_file_migration\\obj\\",
+        "outputPath": "E:\\Project\\Project_In_Dot_net_and_Core\\Core_file_migration\\Core_file_migration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
             }
           },
           "imports": [

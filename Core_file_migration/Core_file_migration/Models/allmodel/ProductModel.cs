@@ -11,7 +11,7 @@ namespace Core_file_migration.Models.allmodel
         [Required]
         public int quantity { get; set; }
         [Required]
-        public IFormFile ProductName { get; set; }
+        public List<IFormFile> ProductName { get; set; }
 
     }
 }

@@ -1,11 +1,5 @@
 {
-  "ExpandedNodes": [
-    "\\Core_file_migration",
-    "\\Core_file_migration\\Controllers",
-    "\\Core_file_migration\\Models",
-    "\\Core_file_migration\\Models\\allmodel",
-    "\\Core_file_migration\\Views",
-    "\\Core_file_migration\\Views\\Product"
-  ],
+  "ExpandedNodes": [],
+  "SelectedNode": "\\Core_file_migration.sln",
   "PreviewInSolutionExplorer": false
 }

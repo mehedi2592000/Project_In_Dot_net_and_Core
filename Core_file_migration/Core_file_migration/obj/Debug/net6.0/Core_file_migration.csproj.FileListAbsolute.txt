@@ -524,3 +524,12 @@ E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\o
 E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\obj\Debug\net6.0\Core_file_migration.pdb
 E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\obj\Debug\net6.0\Core_file_migration.genruntimeconfig.cache
 E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\obj\Debug\net6.0\ref\Core_file_migration.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\obj\Debug\net6.0\Core_file_migration.MvcApplicationPartsAssemblyInfo.cs
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\Rotativa.AspNetCore.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+E:\Project\Project_In_Dot_net_and_Core\Core_file_migration\Core_file_migration\bin\Debug\net6.0\itextsharp.dll
